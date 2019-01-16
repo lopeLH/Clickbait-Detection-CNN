@@ -9,7 +9,7 @@ The model was trained using Chakraborty's et al. dataset [2]. To use the model y
 <img src="https://github.com/lopeLH/Clickbait-Detection-CNN/blob/master/repo-images/embed.PNG" width="550" height="365" />
 </p>
 
-As explained in the paper, since the CNN acts as a representation generator, the classification model can learn over-time by incorporating new labelled samples to the database of the distance-based classifer, and additionally by fine-tuning the CNN when enought new sambles are available.
+As explained in the paper, since the CNN acts as a representation generator, the classification model can learn over-time by incorporating new labelled samples to the database of the distance-based classifer, and additionally by fine-tuning the CNN when enought new samples are available.
 
 [1] [López-Sánchez, D., Herrero, J. R., Arrieta, A. G., & Corchado, J. M. (2017). Hybridizing metric learning and case-based reasoning for adaptable clickbait detection. Applied Intelligence, 1-16.
 ](https://link.springer.com/content/pdf/10.1007/s10489-017-1109-7.pdf)
