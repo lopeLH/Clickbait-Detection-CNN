@@ -13,4 +13,4 @@ As explained in the paper, since the CNN acts as a representation generator, the
 
 [2] https://github.com/bhargaviparanjape/clickbait/
 
-[3] GoogleNews-vectors-negative300.bin.gz.
+[3] https://code.google.com/archive/p/word2vec/
