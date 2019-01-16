@@ -7,7 +7,7 @@ This repo provides the trained CNN model for clickbait-like headline detection p
 The model was trained using Chakraborty's et al. dataset [2]. To use the model you have to [download](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) Google's Word2Vec pretrained embeddings [3]. Using these pre-trained embeddings makes the model very robust against synonymy. This is, sentences using different words with similar meaning will have a similar representation in the embedding space. This reduces the necessary number of training clickbaits to achieve good accuracies. 
 
 ![model overview] width=100)
-<img src="https://github.com/lopeLH/Clickbait-Detection-CNN/blob/master/repo-images/embed.PNG" width="200" height="400" />
+<img src="https://github.com/lopeLH/Clickbait-Detection-CNN/blob/master/repo-images/embed.PNG" width="400" height="300" />
 
 As explained in the paper, since the CNN acts as a representation generator, the classification model can learn over-time by incorporating new labelled samples to the database of the distance-based classifer, and additionally by fine-tuning the CNN when enought new sambles are available.
 
