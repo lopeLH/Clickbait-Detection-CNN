@@ -2,7 +2,7 @@
 
 This repo provides the trained CNN model for clickbait-like headline detection presented in [1]. Essentially, a shallow CNN is trained on Word2Vec embeddings to generate a 100-dimensional representation where clickbaits and legitimate headlines are separated in terms of the Euclidean distance. This representation is used by a simple distance-based clasifier to detect clickbaits at test time. 
 
-https://github.com/lopeLH/Clickbait-Detection-CNN/blob/master/repo-images/model.png
+![model overview] (https://github.com/lopeLH/Clickbait-Detection-CNN/blob/master/repo-images/model.png)
 
 As explained in the paper, since the CNN acts as a representation generator, the classification model can learn over-time by incorporating new labelled samples to the database of the distance-based classifer, and additionally by fine-tuning the CNN when enought new sambles are available.
 
