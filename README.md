@@ -10,5 +10,7 @@ As explained in the paper, since the CNN acts as a representation generator, the
 
 [1] [López-Sánchez, D., Herrero, J. R., Arrieta, A. G., & Corchado, J. M. (2017). Hybridizing metric learning and case-based reasoning for adaptable clickbait detection. Applied Intelligence, 1-16.
 ](https://link.springer.com/content/pdf/10.1007/s10489-017-1109-7.pdf)
+
 [2] https://github.com/bhargaviparanjape/clickbait/
+
 [3] GoogleNews-vectors-negative300.bin.gz.
